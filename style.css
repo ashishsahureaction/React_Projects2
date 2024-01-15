@@ -1,0 +1,15 @@
+.badtime {
+  color: blue;
+  font-size: 400%;
+}
+
+#time {
+  color: rgb(42, 165, 48);
+  font-size: 300%;
+  width: 100px;
+  background-image: url(file:///C:/Users/User/Desktop/Ashish/image%20canada.webp);
+  background-repeat: no-repeat;
+  background-size: length 100px;
+  background-position: top;
+ font-weight:  ;
+}

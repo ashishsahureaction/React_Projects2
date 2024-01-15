@@ -1,0 +1,153 @@
+html{
+  height:100%;
+ background: radial-gradient(circle,#fff,#ccc);
+}
+
+#container{height: 400px;
+  width: 550px;
+  background-color:khaki;
+  margin: 100px auto;
+  padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 0px 0px yellowgreen ;
+position: relative;
+
+}
+#score {position: absolute;
+  left: 500px;
+  background-color: rgb(255, 0, 247);
+  color: blue;
+  box-shadow:0px 4px 0px 0px rebeccapurple ;
+  padding: 11px;
+
+}
+#correct{
+  position: absolute;
+  left: 260px;
+  background-color: rgb(217, 255, 0);
+  color: rgb(16, 15, 15);
+  padding: 11px;
+  display: none;
+}
+#wrong{
+  position: absolute;
+  left: 100px;
+  background-color: rgb(217, 255, 0);
+  color: rgb(19, 19, 20);
+  display: none;
+}
+
+#question{
+  width: 450px;
+  height: 150px;
+  background-color: rgb(126, 146, 67);
+  color: rgb(10, 10, 10);
+  box-shadow: 0px 4px rgb(146, 89, 89);
+  margin: 50px auto 10px auto;
+  font-family: cursive,sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+#instruction{
+  width: 450px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: rgb(87, 122, 91);
+  color: black;
+  text-align: center;
+  line-height: 45px;
+  box-shadow: 0px 4px rgb(64, 61, 61);
+}
+#choices{
+  width: 450px;
+  height: 100px;
+  margin: 5px auto;
+}
+.box{
+  width: 85px;
+  height: 85px;
+  background-color: white;
+  float: left;
+  margin-right: 36px;
+  cursor: pointer;
+  box-shadow: 0px 4px rgba(0, 0,0, 0.2);
+  text-align: center;
+  line-height: 80px;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.box:hover, #start:hover{
+  background-color: rgb(117, 93, 93);
+  color: white;
+  box-shadow: 0px 4px rgb(224, 93, 11);
+}
+.box:active, #start:hover{
+
+  box-shadow: 0px 0px rgb(56, 53, 53);
+  top: 4px;
+}
+#box4{
+  margin-right: 0px;
+}
+
+#start{
+  width: 90px;
+  background-color: white;
+  margin: 0px auto;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: 0px 4px rgba(0, 0,0, 0.2);
+  text-align: center;
+  line-height: 20px;
+  position: relative;
+  transition: all 0.2s;
+  border-radius: 3px;
+  height: 20px;
+}
+
+#timeremaining{
+  width: 152px;
+  padding: 10px;
+  position: absolute;
+  top: 395px;
+  left: 400px;
+  background-color: rgba(181, 295, 61, 0.8);
+  border-radius: 3px;
+  box-shadow: 0px 4px rgba(0, 0,0, 0.2);
+  /* visibility: hidden; */
+display: none;
+}
+
+#gameover{
+  width: 400px;
+  height: 200px;
+ background: linear-gradient(rgb(227, 180, 91),rgb(180, 116, 116));
+ color: white;
+ font-size: 40px;
+ text-align: center;
+ text-transform: uppercase;
+ position: absolute;
+ top: 100px;
+ left: 100px;
+ z-index: 2;
+ display: none;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
